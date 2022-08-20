@@ -29,10 +29,6 @@ class _LoadingScreenState extends State<LoadingScreen> {
     );
   }
 
-  // void onButtonTapped(BuildContext context) {
-  //   Navigator.of(context).pop();
-  // }
-
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
