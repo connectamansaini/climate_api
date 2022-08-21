@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const apiKey = '353e2d276052a5d0460b7f4f17185960';
+const apiKey = '';
 
 const openWeatherMapURL = 'https://api.openweathermap.org/data/2.5/weather';
 
