@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-const apiKey = '';
+//Put Open Weather API Key here --
+const apiKey = '797ee5c5d88ededb5d3b0fdf1c466f59';
 
 const openWeatherMapURL = 'https://api.openweathermap.org/data/2.5/weather';
 
@@ -21,7 +22,7 @@ const kButtonTextStyle = TextStyle(
 );
 
 const kConditionTextStyle = TextStyle(
-  fontSize: 100.0,
+  fontSize: 70.0,
 );
 
 const kTextInputFieldDecoration = InputDecoration(

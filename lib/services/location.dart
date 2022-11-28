@@ -1,9 +1,8 @@
-import 'package:flutter/foundation.dart';
 import 'package:geolocator/geolocator.dart';
 
 class Location {
-  late double latitude;
-  late double longitude;
+  double? latitude;
+  double? longitude;
 
   Future<void> getCurrentLocation() async {
     try {
@@ -12,7 +11,7 @@ class Location {
       latitude = position.latitude;
       longitude = position.longitude;
     } catch (e) {
-      print(e);
+      rethrow;
     }
   }
 }
